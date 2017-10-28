@@ -4,8 +4,8 @@ A set (list) X consists of a "single complete cycle" if and only if, given
     X is a set containing some number of integers x indexed by a set I (as all Python lists are), and
     N is a set of iterators n (consecutive integers; though also implied in Python),
     the following function is a bijection from N to X (the set of iterators N is to return each integer in X once and only once)
-    If n = 1: i = 0, f(n) = x.i
-    If 1 < n <= len(X): i = f(n - 1), f(n) = x.i
+        If n = 1: i = 0, f(n) = x.i
+        If 1 < n <= len(X): i = f(n - 1), f(n) = x.i
  
  E.g., given [1, 5, 2] (a list of length 3), 
      n = 1: i = 0, f(n) = 1
