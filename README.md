@@ -1,1 +1,1 @@
-An as of now very small collection of solutions to certain computing problems.
+An as of now a very small collection of solutions to certain computing problems.
