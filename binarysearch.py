@@ -53,6 +53,4 @@ def binary_search(numset,x):
         elif numset[mid] == x:
             return mid
 
-
-
 print binary_search(r,n)
